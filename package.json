@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npm run mkAssetsDir && npm run copy && vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && npm run mkAssetsDir && npm run copy && vite build",
     "mkAssetsDir": "mkdirp -p public/widgets/instant-app-export-sample/dist/runtime/instant-apps-component/assets",
     "copy": "npm run copyCC && npm run copyIAC",
     "copyCC": "ncp node_modules/@esri/calcite-components/dist/calcite/assets public/widgets/instant-app-export-sample/dist/runtime/instant-apps-component/assets",

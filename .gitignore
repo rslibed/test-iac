@@ -1,2 +1,5 @@
 node_modules
 public/widgets/**/*
+tsconfig.app.tsbuildinfo
+tsconfig.node.tsbuildinfo
+dist
