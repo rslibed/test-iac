@@ -1,4 +1,4 @@
-# Instant Apps Components
+# Instant Apps Components: Assets
 
 Sample project that demonstrates how to copy and set up assets path for Instant Apps Components.
 
